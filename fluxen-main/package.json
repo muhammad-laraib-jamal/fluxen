@@ -1,0 +1,14 @@
+{
+  "name": "fluxen",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fluxen Task Management Application (Python FastAPI + React + SQLite)",
+  "scripts": {
+    "dev:server": "python server/run.py",
+    "dev:client": "npm run dev --prefix client",
+    "build:client": "npm run build --prefix client",
+    "build": "npm run build:client",
+    "test:server": "pytest server/tests",
+    "test": "npm run test:server"
+  }
+}
